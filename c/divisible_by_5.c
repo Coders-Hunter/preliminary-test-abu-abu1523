@@ -5,7 +5,7 @@ void check_divisibility(int num) {
     if(num%5==0)
     {printf("TRUE");}
     else
-    {printf("FALSE")}
+    {printf("FALSE");}
     
 }
 
