@@ -4,12 +4,13 @@ void check_divisibility(int num) {
     // Expected output is "TRUE" or "FALSE"
     if(num%5==0)
     {
-        printf("true");
+        return TRUE;
     }
     else
     {
-        printf("false");
+        return FALSE;
     }
+    
 }
 
 int main() {
