@@ -3,13 +3,9 @@
 void check_divisibility(int num) {
     // Expected output is "TRUE" or "FALSE"
     if(num%5==0)
-    {
-        return ("true");
-    }
+    printf("TRUE");
     else
-    {
-        return ("false");
-    }
+    printf("FALSE")
     
 }
 
